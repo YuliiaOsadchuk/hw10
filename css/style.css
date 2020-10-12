@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+.nav-wrapper {
+    background-color: #E5E6EB;
+}
+
+.item-follow {
+    position: relative;
+}
+
+.form-inline {
+    position: relative;
+    margin: 5px;
+}
+
+.form-inline::before {
+    content: "\1F50D";
+    position: absolute;
+    left: 45px;
+    top: 15px;
+    font: normal normal normal 14px/1 FontAwesome;
+    color: #939393;
+}
+
+.form-inline .form-control {
+    text-align: center;
+}
+
+.badge-light {
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: -5px;
+    left: 10px;
+}
